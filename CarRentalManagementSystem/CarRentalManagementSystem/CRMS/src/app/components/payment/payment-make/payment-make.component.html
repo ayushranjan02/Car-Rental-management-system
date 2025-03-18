@@ -1,0 +1,66 @@
+<div class="payment-make-container">
+    <h2>Make Payment</h2>
+    <form (ngSubmit)="onMakePayment()">
+      <div class="form-group">
+        <label for="rentCarId">Rent Car ID:</label>
+        <input type="number" id="rentCarId" [(ngModel)]="paymentData.rentCarId" name="rentCarId" required>
+      </div>
+      <div class="form-group">
+        <label for="customerId">Customer ID:</label>
+        <input type="number" id="customerId" [(ngModel)]="paymentData.customerId" name="customerId" required>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" [(ngModel)]="paymentData.amount" name="amount" required>
+      </div>
+      <div class="form-group">
+        <label for="paymentMethod">Payment Method:</label>
+        <select id="paymentMethod" [(ngModel)]="paymentData.paymentMethod" name="paymentMethod" required>
+          <option value="UPI">UPI</option>
+          <option value="Card">Card</option>
+        </select>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'UPI'" class="form-group">
+        <label for="upiId">UPI ID:</label>
+        <input type="text" id="upiId" [(ngModel)]="paymentData.upiId" name="upiId" required>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'Card'" class="form-group">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" [(ngModel)]="paymentData.cardNumber" name="cardNumber" required>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'Card'" class="form-group">
+        <label for="cardName">Card Name:</label>
+        <input type="text" id="cardName" [(ngModel)]="paymentData.cardName" name="cardName" required>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'Card'" class="form-group">
+        <label for="expiryMonth">Expiry Month:</label>
+        <input type="number" id="expiryMonth" [(ngModel)]="paymentData.expiryMonth" name="expiryMonth" required>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'Card'" class="form-group">
+        <label for="expiryYear">Expiry Year:</label>
+        <input type="number" id="expiryYear" [(ngModel)]="paymentData.expiryYear" name="expiryYear" required>
+      </div>
+      <div *ngIf="paymentData.paymentMethod === 'Card'" class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" [(ngModel)]="paymentData.cvv" name="cvv" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Make Payment</button>
+    </form>
+  
+    <div *ngIf="successMessage" class="alert alert-success">
+      {{ successMessage }}
+    </div>
+  
+    <div *ngIf="additionalMessage" class="alert alert-info">
+      {{ additionalMessage }}
+    </div>
+  
+    <div *ngIf="responseMessage" class="alert alert-info">
+      <pre>{{ responseMessage }}</pre>
+    </div>
+  
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  </div>
+  

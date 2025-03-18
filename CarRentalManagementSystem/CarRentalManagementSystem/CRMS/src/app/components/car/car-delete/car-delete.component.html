@@ -1,0 +1,23 @@
+<div class="car-delete">
+    <h2>Delete Car</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label for="carId">Car ID:</label>
+        <input type="number" id="carId" [(ngModel)]="carId" name="carId" required>
+      </div>
+      <button type="submit">Delete Car</button>
+    </form>
+    <div *ngIf="successMessage" class="message success">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="message error">
+      {{ errorMessage }}
+    </div>
+    <h2>All Cars</h2>
+    <ul>
+      <li *ngFor="let car of cars">{{ car.carName }} (ID: {{ car.carId }}) 
+        <button *ngIf="car.carId" (click)="deleteCar(car.carId!)">Delete</button>
+      </li>
+    </ul>
+  </div>
+  

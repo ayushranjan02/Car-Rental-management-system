@@ -1,0 +1,18 @@
+<div class="car-rent-list">
+  <h2>All Car Rents</h2>
+  <div class="rent-container">
+    <div *ngFor="let rent of allCarRents; let i = index" class="rent-card">
+      <p><strong>{{ i + 1 }}. Rent ID:</strong> {{ rent.rentCarId }}</p>
+      <p><strong>Car ID:</strong> {{ rent.carId }}</p> <!-- Added Car ID field -->
+      <p><strong>Customer ID:</strong> {{ rent.customerId }}</p>
+      <p><strong>From Date:</strong> {{ rent.rentFromDate | date }}</p>
+      <p><strong>To Date:</strong> {{ rent.rentToDate | date }}</p>
+      <p><strong>Amount:</strong> {{ rent.amount }}</p>
+      <p><strong>Approved By:</strong> {{ rent.approvedBy }}</p>
+      <p><strong>Status:</strong> {{ rent.rentStatus }}</p>
+    </div>
+  </div>
+  <div *ngIf="errorMessage" class="message error">
+    {{ errorMessage }}
+  </div>
+</div>

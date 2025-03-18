@@ -1,0 +1,49 @@
+.customer-list-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.customer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust gap between cards as needed */
+}
+
+.customer-card {
+  flex: 0 1 calc(33.33% - 20px); /* 3 cards per row, adjusting for gap */
+  background-color: darkgrey;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: tranform 0.3s, box-shadow 0.3s;
+}
+
+.customer-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #f1f1f1;
+}
+
+.customer-card h3 {
+  margin-top: 0;
+}
+
+.customer-card p {
+  margin: 5px 0;
+}
+
+.no-customers-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}

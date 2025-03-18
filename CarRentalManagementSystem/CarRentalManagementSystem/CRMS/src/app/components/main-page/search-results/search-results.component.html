@@ -1,0 +1,19 @@
+<div class="search-results">
+    <h2>Search Results for "{{ searchTerm }}"</h2>
+
+    <div *ngIf="filteredOptions.length > 0">
+      <h3>Options</h3>
+      <ul class="options">
+        <li *ngFor="let option of filteredOptions">
+          <button (click)="navigateTo(option.route)">{{ option.label }}</button>
+        </li>
+      </ul>
+    </div>
+  
+    <div *ngIf="filteredOptions.length === 0">
+      <p>No results found.</p>
+    </div>
+  
+    <button class="btn btn-primary" (click)="navigateToDashboard()">Back to Dashboard</button>
+  </div>
+  

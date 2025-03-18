@@ -1,0 +1,22 @@
+<div class="car-rented">
+    <h2>Rented Cars</h2>
+    <div class="car-grid">
+      <div class="car-box" *ngFor="let car of cars; let i = index">
+        <div class="image-container rented">
+          <img [src]="getFullImageUrl(car.imageUrl)" alt="{{ car.carName }}">
+          <div class="overlay">Rented</div>
+        </div>
+        <div class="car-details">
+          <p><strong><i class="fas fa-hashtag"></i> {{ i + 1 }}. Car ID:</strong> {{ car.carId }}</p>
+          <p><strong><i class="fas fa-car"></i> Car Name:</strong> {{ car.carName }}</p>
+          <p><strong><i class="fas fa-cogs"></i> Model:</strong> {{ car.model }}</p>
+          <p><strong><i class="fas fa-gas-pump"></i> Fuel Type:</strong> {{ car.fuelType }}</p>
+          <p><strong><i class="fas fa-calendar-alt"></i> Year:</strong> {{ car.year }}</p>
+          <p><strong><i class="fas fa-rupee-sign"></i> Rent Price:</strong> ₹{{ car.rentPrice }}</p>
+          <p><strong><i class="fas fa-clipboard-check"></i> Availability:</strong> {{ car.availability_Status }}</p>
+          <p><strong><i class="fas fa-users"></i> Seater:</strong> {{ car.seater }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

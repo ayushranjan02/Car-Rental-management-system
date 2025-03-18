@@ -1,0 +1,20 @@
+<div class="car-rent-reject">
+  <h2>Reject Car Rent Requests</h2>
+  <div *ngFor="let rent of pendingCarRents" class="rent-card">
+    <p><strong>Rent ID:</strong> {{ rent.rentCarId }}</p>
+    <p><strong>Car Name:</strong> {{ rent.carss?.carName }}</p>
+    <p><strong>Model:</strong> {{ rent.carss?.model }}</p>
+    <p><strong>Customer ID:</strong> {{ rent.customerId }}</p>
+    <p><strong>From Date:</strong> {{ rent.rentFromDate | date }}</p>
+    <p><strong>To Date:</strong> {{ rent.rentToDate | date }}</p>
+    <p><strong>Amount:</strong> {{ rent.amount }}</p>
+    <p><strong>Status:</strong> {{ rent.rentStatus }}</p>
+    <button (click)="rejectRent(rent.rentCarId)">Reject</button>
+  </div>
+  <div *ngIf="successMessage" class="message success">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="message error">
+    {{ errorMessage }}
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="car-rent-customer-container">
+    <h2>Check Your Car Rents</h2>
+    <form (ngSubmit)="onCheckCarRents()">
+      <div class="form-group">
+        <label for="customerId">Customer ID:</label>
+        <input type="number" id="customerId" [(ngModel)]="customerId" name="customerId" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Check Car Rents</button>
+    </form>
+  
+    <div *ngIf="hasSubmitted">
+      <div *ngIf="carRents.length > 0; else noRents">
+        <div class="rent-grid">
+          <div *ngFor="let rent of carRents; let i = index" class="rent-box">
+                <p><strong>Box Number:</strong> {{ i + 1 }}</p>
+            <p><strong>Rent Car ID:</strong> {{ rent.rentCarId }}</p>
+            <p><strong>Rent From Date:</strong> {{ rent.rentFromDate }}</p>
+            <p><strong>Rent To Date:</strong> {{ rent.rentToDate }}</p>
+            <p><strong>Amount:</strong> {{ rent.amount }}</p>
+            <p><strong>Approved By:</strong> {{ rent.approvedBy }}</p>
+            <p><strong>Rent Status:</strong> {{ rent.rentStatus }}</p>
+            <p><strong>Car ID:</strong> {{ rent.carId }}</p>
+          </div>
+        </div>
+      </div>
+      <ng-template #noRents>
+        <p>You have no car rents.</p>
+      </ng-template>
+    </div>
+  
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  </div>
+  

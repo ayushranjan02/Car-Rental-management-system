@@ -1,0 +1,32 @@
+<div class="profile-container" *ngIf="customer != null">
+  <div class="profile-header">
+    <img src="assets/images/image.png" alt="Profile Picture" class="profile-pic">
+    <h2>{{ customerName }}</h2>
+  </div>
+  <div class="profile-box">
+    <h3>MY ACCOUNT</h3>
+    <div class="account-section">
+      <h4>Account Details</h4>
+      <p><strong>Email:</strong> {{ customer.email }}</p>
+      <p><strong>Mobile:</strong> {{ customer.phone_Number }}</p>
+    </div>
+  </div>
+  <div class="profile-box">
+    <h3>Personal Details</h3>
+    <div class="personal-section">
+      <h4>Name</h4>
+      <p><strong>Name:</strong> {{ customer.customer_Name }}</p>
+      <h4>Customer ID:</h4>
+      <p><strong>ID:</strong> {{ customer.customerId }}</p>
+      <h4>Aadhar Card Number</h4>
+      <p><strong>Aadhar:</strong> {{ customer.aadharCardNumber }}</p>
+    </div>
+  </div>
+  <div class="profile-box">
+    <h3>Location Details</h3>
+    <div class="location-section">
+      <h4>City</h4>
+      <p><strong>Address:</strong> {{ customer.address }}</p>
+    </div>
+  </div>
+</div>

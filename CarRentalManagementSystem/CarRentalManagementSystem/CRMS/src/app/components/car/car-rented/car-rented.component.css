@@ -1,0 +1,90 @@
+.car-rented {
+  padding: 20px;
+}
+
+.car-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-box {
+  width: 30%; /* Adjust as needed to fit 3 boxes in a row */
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* For overlay positioning */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.car-box:hover .image-container img {
+  transform: scale(1.1);
+}
+
+.image-container.rented img {
+  filter: blur(5px); /* Apply blur to rented images */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red overlay */
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1; /* Ensure overlay text is above the image */
+}
+
+.car-details {
+  padding: 10px;
+}
+
+.car-details p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.fas {
+  margin-right: 8px;
+}

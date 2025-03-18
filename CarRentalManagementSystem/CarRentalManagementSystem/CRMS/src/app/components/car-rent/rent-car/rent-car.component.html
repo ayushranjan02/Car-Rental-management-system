@@ -1,0 +1,38 @@
+<div class="rent-car-container">
+  <h2>Rent a Car</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="carId">Car ID:</label>
+      <input type="number" id="carId" [(ngModel)]="rentCarRequest.carId" name="carId" required>
+    </div>
+    <div class="form-group">
+      <label for="rentFromDate">Rent From Date:</label>
+      <input type="date" id="rentFromDate" [(ngModel)]="rentCarRequest.rentFromDate" name="rentFromDate" required>
+    </div>
+    <div class="form-group">
+      <label for="rentToDate">Rent To Date:</label>
+      <input type="date" id="rentToDate" [(ngModel)]="rentCarRequest.rentToDate" name="rentToDate" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+  </form>
+
+  <div *ngIf="successMessage" class="alert alert-success">
+    {{ successMessage }}
+  </div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="rentCarDetails" class="rent-details">
+    <h3>Rent Car Details:</h3>
+    <p><strong>Rent Car ID:</strong> {{ rentCarDetails.rentCarId }}</p>
+    <p><strong>Rent From Date:</strong> {{ rentCarDetails.rentFromDate }}</p>
+    <p><strong>Rent To Date:</strong> {{ rentCarDetails.rentToDate }}</p>
+    <p><strong>Amount:</strong> {{ rentCarDetails.amount }}</p>
+    <p><strong>Approved By:</strong> {{ rentCarDetails.approvedBy }}</p>
+    <p><strong>Rent Status:</strong> {{ rentCarDetails.rentStatus }}</p>
+    <p><strong>Car ID:</strong> {{ rentCarDetails.carId }}</p>
+    <p><strong>Note:</strong> Please make note of your Rent Car ID and amount to make the payment.</p>
+  </div>
+</div>

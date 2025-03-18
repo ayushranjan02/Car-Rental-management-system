@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="admin-dashboard">
+    <h1>Welcome, {{ adminName }}!</h1>
+    <nav class="navbar">
+      <ul>
+        <li><button (click)="navigateTo('admin-dashboard-metrics')">Dashboard Metrics</button></li>
+        <li><button (click)="navigateTo('admin-list')">List Admins</button></li>
+        <li><button (click)="navigateTo('admin-change-password')">Change Password</button></li>
+        <li><button (click)="navigateTo('car-add')">Add Car</button></li>
+        <li><button (click)="navigateTo('car-list')">List Cars</button></li>
+        <li><button (click)="navigateTo('car-rented')">Rented Cars</button></li>
+        <li><button (click)="navigateTo('car-available')">Available Cars</button></li>
+        <li><button (click)="navigateTo('car-update')">Update Car</button></li>
+        <li><button (click)="navigateTo('car-delete')">Delete Car</button></li>
+        <li><button (click)="navigateTo('car-rent-list')">List Car Rents</button></li>
+        <li><button (click)="navigateTo('car-rent-pending')">Pending Car Rents</button></li>
+        <li><button (click)="navigateTo('car-rent-accept')">Accept Car Rent</button></li>
+        <li><button (click)="navigateTo('car-rent-reject')">Reject Car Rent</button></li>
+        <li><button (click)="navigateTo('car-rent-details')">Car Rent Details</button></li>
+        <li><button (click)="navigateTo('payment-list')">List Payments</button></li>
+        <li><button (click)="navigateTo('customer-list')">List Customers</button></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <ng-container [ngSwitch]="currentSection">
+        <app-admin-dashboard-metrics *ngSwitchCase="'admin-dashboard-metrics'"></app-admin-dashboard-metrics>
+        <app-admin-list *ngSwitchCase="'admin-list'"></app-admin-list>
+        <app-admin-change-password *ngSwitchCase="'admin-change-password'"></app-admin-change-password>
+        <app-car-add *ngSwitchCase="'car-add'"></app-car-add>
+        <app-car-list *ngSwitchCase="'car-list'"></app-car-list>
+        <app-car-rented *ngSwitchCase="'car-rented'"></app-car-rented>
+        <app-car-available *ngSwitchCase="'car-available'"></app-car-available>
+        <app-car-update *ngSwitchCase="'car-update'"></app-car-update>
+        <app-car-delete *ngSwitchCase="'car-delete'"></app-car-delete>
+        <app-car-rent-list *ngSwitchCase="'car-rent-list'"></app-car-rent-list>
+        <app-car-rent-pending *ngSwitchCase="'car-rent-pending'"></app-car-rent-pending>
+        <app-car-rent-accept *ngSwitchCase="'car-rent-accept'"></app-car-rent-accept>
+        <app-car-rent-reject *ngSwitchCase="'car-rent-reject'"></app-car-rent-reject>
+        <app-car-rent-details *ngSwitchCase="'car-rent-details'"></app-car-rent-details>
+        <app-payment-list *ngSwitchCase="'payment-list'"></app-payment-list>
+        <app-customer-list *ngSwitchCase="'customer-list'"></app-customer-list>
+      </ng-container>
+    </div>
+  </div>
+</body>
+</html>

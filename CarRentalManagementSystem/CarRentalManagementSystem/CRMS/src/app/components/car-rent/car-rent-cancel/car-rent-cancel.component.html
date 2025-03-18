@@ -1,0 +1,26 @@
+<div class="car-rent-cancel-container">
+    <h2>Cancel Your Car Rent</h2>
+    <form (ngSubmit)="onCancelCarRent()">
+      <div class="form-group">
+        <label for="rentCarId">Rent Car ID:</label>
+        <input type="number" id="rentCarId" [(ngModel)]="rentCarId" name="rentCarId" required>
+      </div>
+      <div class="form-group">
+        <p>Are you sure you want to cancel your car rental? This action cannot be undone.</p>
+      </div>
+      <button type="submit" class="btn btn-danger">Cancel Car Rent</button>
+    </form>
+  
+    <div *ngIf="successMessage" class="alert alert-success">
+      {{ successMessage }}
+    </div>
+  
+    <div *ngIf="additionalMessage" class="alert alert-info">
+      {{ additionalMessage }}
+    </div>
+  
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+  </div>
+  

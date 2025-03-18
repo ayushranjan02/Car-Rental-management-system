@@ -1,0 +1,18 @@
+<div class="customer-list-container">
+  <h2>Customer Details</h2>
+  <div class="customer-container">
+    <div *ngFor="let customer of customers; let i = index" class="customer-card">
+      <p><strong>Box Number:</strong> {{ i + 1 }}</p>
+      <p><strong>ID:</strong> {{ customer.customerId }}</p>
+      <h3>{{ customer.customer_Name }}</h3>
+      <p><strong>Email:</strong> {{ customer.email }}</p>
+      <p><strong>Phone Number:</strong> {{ customer.phone_Number }}</p>
+      <p><strong>Address:</strong> {{ customer.address }}</p>
+      <p><strong>Password:</strong> {{ customer.password }}</p>
+      <p><strong>Aadhar Card Number:</strong> {{ customer.aadharCardNumber }}</p>
+    </div>
+  </div>
+  <div *ngIf="customers.length === 0" class="no-customers-message">
+    No customers found.
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="car-list">
+  <h2>Car List</h2>
+  <div class="car-grid">
+    <div class="car-box" *ngFor="let car of cars; let i = index">
+      <div class="image-container" [ngClass]="{'rented': car.availability_Status === 'Rented', 'available': car.availability_Status === 'Available'}">
+        <img [src]="getFullImageUrl(car.imageUrl)" alt="{{ car.carName }}">
+        <div class="overlay" *ngIf="car.availability_Status === 'Rented'">Rented</div>
+        <div class="overlay available" *ngIf="car.availability_Status === 'Available'">Available</div>
+      </div>
+      <div class="car-details">
+        <p><strong><i class="fas fa-hashtag"></i> {{ i + 1 }}. Car ID:</strong> {{ car.carId }}</p>
+        <p><strong><i class="fas fa-car"></i> Car Name:</strong> {{ car.carName }}</p>
+        <p><strong><i class="fas fa-cogs"></i> Model:</strong> {{ car.model }}</p>
+        <p><strong><i class="fas fa-gas-pump"></i> Fuel Type:</strong> {{ car.fuelType }}</p>
+        <p><strong><i class="fas fa-calendar-alt"></i> Year:</strong> {{ car.year }}</p>
+        <p><strong><i class="fas fa-rupee-sign"></i> Rent Price:</strong> ₹{{ car.rentPrice }}</p>
+        <p><strong><i class="fas fa-clipboard-check"></i> Availability:</strong> {{ car.availability_Status }}</p>
+        <p><strong><i class="fas fa-users"></i> Seater:</strong> {{ car.seater }}</p>
+      </div>
+      <button *ngIf="car.availability_Status !== 'Rented' && car.availability_Status !== 'Pending'" (click)="rentCar(car)">Rent This Car</button>
+    </div>
+  </div>
+</div>

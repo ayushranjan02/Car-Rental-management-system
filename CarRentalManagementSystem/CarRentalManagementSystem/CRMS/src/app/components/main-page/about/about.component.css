@@ -1,0 +1,55 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../../../assets/images/car5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    color: white;
+    margin-top: 100px;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); Add a semi-transparent background to make text readable */
+    border-radius: 10px;
+  }
+  
+  .about-text {
+    padding: 20px;
+  }
+  
+  .about-text h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-text blockquote {
+    font-style: italic;
+    color: #ddd;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+    margin: 20px 0;
+  }
+  
+  .about-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text ul li {
+    margin-bottom: 10px;
+  }

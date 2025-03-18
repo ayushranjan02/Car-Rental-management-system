@@ -1,0 +1,76 @@
+<div class="customer-dashboard" style="margin-top: 100px;">
+  <header class="header">
+    <button class="menu-toggle" (click)="toggleMenu()">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="header-text">
+      <h1>Welcome, {{ customerName }}!</h1>
+      <p>{{ greetingMessage }}</p>
+      <div class="important-note-box">
+        <p><strong>Important Note:</strong> Now your customer ID is in the profile section in the menu bar. Keep it for your reference to check your pending rent status, for checking your car rents, and for making payment. If you want to know your rentCarID, go to the Customer Car Rents section and enter your customer ID to check your rentCarID for your purpose.</p>
+      </div>
+    </div>
+  </header>
+  <div class="main-content">
+    <nav class="side-menu" [ngClass]="{ 'collapsed': isMenuCollapsed }">
+      <div class="profile">
+        <img src="assets/images/image.png" alt="Profile Icon">
+        <p>{{ customerName }}</p>
+      </div>
+      <div class="menu-items">
+        <ul>
+          <li><button (click)="navigateTo('profile')"><i class="bi bi-person-fill"></i> Profile</button></li>
+          <li><button (click)="navigateTo('car-list')"><i class="bi bi-card-list"></i> Car List</button></li>
+          <li><button (click)="navigateTo('rented-cars')"><i class="bi bi-car-front-fill"></i> Rented Cars</button></li>
+          <li><button (click)="navigateTo('available-cars')"><i class="bi bi-car-front"></i> Available Cars</button></li>
+          <li><button (click)="navigateTo('change-password')"><i class="bi bi-key-fill"></i> Change Password</button></li>
+          <li><button (click)="navigateTo('customer-car-rents')"><i class="bi bi-receipt-cutoff"></i> Customer Car Rents</button></li>
+          <li><button (click)="navigateTo('rent-car')"><i class="bi bi-cart-fill"></i> Rent a Car</button></li>
+          <li><button (click)="navigateTo('pending-rent-status')"><i class="bi bi-clock-fill"></i> Pending Rent Status</button></li>
+          <li><button (click)="navigateTo('make-payment')"><i class="bi bi-cash-stack"></i> Make Payment</button></li>
+          <li><button (click)="navigateTo('cancel-car-rent')"><i class="bi bi-x-circle-fill"></i> Cancel Car Rent</button></li>
+          <li><button (click)="navigateTo('return-car')"><i class="bi bi-arrow-left-circle-fill"></i> Return Car</button></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content">
+      <ng-container [ngSwitch]="currentSection">
+        <div *ngSwitchCase="'car-list'">
+          <div class="car-list">
+            <h2>Car List</h2>
+            <div class="car-grid">
+              <div class="car-box" *ngFor="let car of cars; let i = index">
+                <div class="image-container" [ngClass]="{'rented': car.availability_Status === 'Rented', 'available': car.availability_Status === 'Available'}">
+                  <img [src]="getFullImageUrl(car.imageUrl)" alt="{{ car.carName }}">
+                  <div class="overlay" *ngIf="car.availability_Status === 'Rented'">Rented</div>
+                  <div class="overlay available" *ngIf="car.availability_Status === 'Available'">Available</div>
+                </div>
+                <div class="car-details">
+                  <p><strong><i class="bi bi-hash"></i> {{ i + 1 }}. Car ID:</strong> {{ car.carId }}</p>
+                  <p><strong><i class="bi bi-car-front"></i> Car Name:</strong> {{ car.carName }}</p>
+                  <p><strong><i class="bi bi-tools"></i> Model:</strong> {{ car.model }}</p>
+                  <p><strong><i class="bi bi-fuel-pump"></i> Fuel Type:</strong> {{ car.fuelType }}</p>
+                  <p><strong><i class="bi bi-calendar"></i> Year:</strong> {{ car.year }}</p>
+                  <p><strong><i class="bi bi-currency-rupee"></i> Rent Price:</strong> ₹{{ car.rentPrice }}</p>
+                  <p><strong><i class="bi bi-clipboard-check"></i> Availability:</strong> {{ car.availability_Status }}</p>
+                  <p><strong><i class="bi bi-people-fill"></i> Seater:</strong> {{ car.seater }}</p>
+                </div>
+                <button *ngIf="car.availability_Status !== 'Rented' && car.availability_Status !== 'Pending'" (click)="navigateTo('rent-car')">Rent This Car</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <app-profile *ngSwitchCase="'profile'"></app-profile>
+        <app-car-rented *ngSwitchCase="'rented-cars'"></app-car-rented>
+        <app-car-available *ngSwitchCase="'available-cars'"></app-car-available>
+        <app-customer-change-password *ngSwitchCase="'change-password'"></app-customer-change-password>
+        <app-car-rent-customer *ngSwitchCase="'customer-car-rents'"></app-car-rent-customer>
+        <app-car-rent-cancel *ngSwitchCase="'cancel-car-rent'"></app-car-rent-cancel>
+        <app-car-rent-return *ngSwitchCase="'return-car'"></app-car-rent-return>
+        <app-rent-car *ngSwitchCase="'rent-car'"></app-rent-car>
+        <app-pending-rent-status *ngSwitchCase="'pending-rent-status'"></app-pending-rent-status>
+        <app-payment-make *ngSwitchCase="'make-payment'"></app-payment-make>
+      </ng-container>
+    </div>
+  </div>
+</div>

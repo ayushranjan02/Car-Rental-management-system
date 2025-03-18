@@ -1,0 +1,33 @@
+.search-results {
+    margin: 20px;
+  }
+  
+  .options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options li {
+    margin: 10px 0;
+  }
+  
+  .options button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options button i {
+    margin-right: 10px;
+  }
+  
+  .options button:hover {
+    background-color: #0056b3;
+  }
+  

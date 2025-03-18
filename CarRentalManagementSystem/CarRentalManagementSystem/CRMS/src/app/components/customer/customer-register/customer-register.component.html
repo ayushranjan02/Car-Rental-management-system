@@ -1,0 +1,45 @@
+<div class="hero-image">
+  <img src="assets/images/ferrari.png" alt="Background">
+  <div class="register-container">
+      <h2>Customer Registration</h2>
+      <form (ngSubmit)="onSubmit()">
+          <div class="form-group">
+              <label for="customerName">Name:</label>
+              <input type="text" id="customerName" name="customerName" [(ngModel)]="customer.Customer_Name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" [(ngModel)]="customer.Email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" [(ngModel)]="customer.Phone_Number" class="form-control" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address" [(ngModel)]="customer.Address" class="form-control" placeholder="Enter your address" required>
+          </div>
+          <div class="form-group">
+              <label for="aadharCardNumber">Aadhar Card Number:</label>
+              <input type="text" id="aadharCardNumber" name="aadharCardNumber" [(ngModel)]="customer.AadharCardNumber" class="form-control" placeholder="Enter your Aadhar Card Number" required>
+          </div>
+          <div class="form-group">
+              <label for="password">Password:</label>
+              <div class="password-container">
+                  <input [type]="passwordVisible ? 'text' : 'password'" id="password" name="password" [(ngModel)]="customer.Password" class="form-control" placeholder="Enter your password" required>
+                  <i class="bi" [ngClass]="{'bi-eye': !passwordVisible, 'bi-eye-slash': passwordVisible}" (click)="togglePasswordVisibility()"></i>
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+      <div *ngIf="successMessage" class="alert alert-success">
+          {{ successMessage }} 
+          <a [routerLink]="['/Login']">Go to login page</a>
+      </div>
+      <div *ngIf="errorMessage" class="alert alert-danger">
+          {{ errorMessage }} 
+          <a [routerLink]="['/Login']">Go to login page</a>
+      </div>
+  </div>
+</div>
+

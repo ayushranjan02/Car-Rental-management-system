@@ -1,0 +1,62 @@
+.admin-list-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust gap between cards as needed */
+}
+
+.admin-card {
+  flex: 0 1 calc(33.33% - 20px); /* 3 cards per row, adjusting for gap */
+  background-color: darkgray;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.admin-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f1f1f1;
+}
+
+.admin-card h3 {
+  margin-top: 0;
+}
+
+.admin-card p {
+  margin: 5px 0;
+}
+
+.delete-button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.no-admins-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}

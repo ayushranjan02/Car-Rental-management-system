@@ -1,0 +1,55 @@
+<div class="car-add">
+  <h2>Add New Car</h2>
+  <form (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+    <div>
+      <label for="carName">Car Name:</label>
+      <input type="text" id="carName" [(ngModel)]="car.carName" name="carName" required>
+    </div>
+    <div>
+      <label for="model">Model:</label>
+      <select id="model" [(ngModel)]="car.model" name="model" required >
+        <option value="Manual">Manual</option>
+        <option value="Automatic">Automatic</option>
+      </select>
+    </div>
+    <div>
+      <label for="color">Color:</label>
+      <input type="text" id="color" [(ngModel)]="car.color" name="color" required>
+    </div>
+    <div>
+      <label for="year">Year:</label>
+      <input type="number" id="year" [(ngModel)]="car.year" name="year" required>
+    </div>
+    <div>
+      <label for="fuelType">Fuel Type:</label>
+      <select id="fuelType" [(ngModel)]="car.fuelType" name="fuelType" required [disabled]="car.model === 'Automatic'">
+        <option value="Petrol">Petrol</option>
+        <option value="Diesel">Diesel</option>
+        <option value="Electric">Electric</option>
+      </select>
+    </div>
+    <div>
+      <label for="rentPrice">Rent Price:</label>
+      <input type="number" id="rentPrice" [(ngModel)]="car.rentPrice" name="rentPrice" required>
+    </div>
+    <div>
+      <label for="availabilityStatus">Availability Status:</label>
+      <input type="text" id="availabilityStatus" [(ngModel)]="car.availability_Status" name="availabilityStatus" required>
+    </div>
+    <div>
+      <label for="seater">Seater:</label>
+      <input type="number" id="seater" [(ngModel)]="car.seater" name="seater">
+    </div>
+    <!-- <div>
+      <label for="image">Image:</label>
+      <input type="file" id="image" (change)="onFileChange($event)">
+    </div> -->
+    <button type="submit">Add Car</button>
+  </form>
+  <div *ngIf="successMessage" class="message success">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="message error">
+    {{ errorMessage }}
+  </div>
+</div>

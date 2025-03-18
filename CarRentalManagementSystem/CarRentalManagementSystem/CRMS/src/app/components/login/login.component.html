@@ -1,0 +1,46 @@
+<div class="background-image"></div>
+<div class="login-container">
+    <h2>Login</h2>
+    <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" formControlName="email" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <div class="password-container">
+                <input [type]="passwordVisible ? 'text' : 'password'" id="password" formControlName="password" class="form-control" required>
+                <i class="bi" [ngClass]="{'bi-eye': !passwordVisible, 'bi-eye-slash': passwordVisible}" (click)="togglePasswordVisibility()"></i>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="userType">User Type:</label>
+            <select id="userType" formControlName="userType" class="form-control" required>
+                <option value="admin">Admin</option>
+                <option value="customer">Customer</option>
+            </select>
+        </div>
+
+        <div class="form-group remember-me">
+            <input type="checkbox" id="rememberMe" formControlName="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+        <div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>
+        <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    </form>
+    <div class="registration-links">
+        <p>Are you a new customer or admin?</p>
+        <div class="register-boxes">
+            <div class="register-box">
+                <a [routerLink]="['/CustomerRegister']">Register as Customer</a>
+            </div>
+            <div class="register-box">
+                <a [routerLink]="['/AdminRegister']">Register as Admin</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+.navbar {
+    /*background-color: black;  Light background color */
+    background: rgba(0, 0, 0, 0.4); /* Transparent background */
+    
+
+  }
+  
+  .navbar-brand {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .navbar-nav .nav-link {
+    color: black; /* Black text color */
+    font-weight: 500;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Blue color for active link */
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: #f8f9fa; /* Light background for dropdown */
+  }
+  
+  .navbar-nav .dropdown-item {
+    color: #000; /* Black text color for dropdown items */
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: #e9ecef; /* Light grey background on hover */
+  }
+  
+  .form-control {
+    border-radius: 0; /* Remove rounded corners */
+  }
+  
+  .btn-outline-success {
+    border-radius: 0; /* Remove rounded corners */
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center; /* Center align nav items on smaller screens */
+    }
+  }

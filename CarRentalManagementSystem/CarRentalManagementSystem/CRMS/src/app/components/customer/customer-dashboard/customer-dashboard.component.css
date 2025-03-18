@@ -1,0 +1,241 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css";
+
+.important-note-box {
+  border: 2px solid #ffcc00;
+  background-color: #fff8e1;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.important-note-box p {
+  color: #ff6f00;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.customer-dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+}
+
+.header .menu-toggle {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 60px);
+}
+
+.side-menu {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+.side-menu.collapsed {
+  width: 0;
+}
+
+.side-menu .profile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.side-menu .profile img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.side-menu .menu-items {
+  flex: 1;
+  overflow-y: auto;
+  height: calc(100vh - 150px); /* Adjust based on your header and profile heights */
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu ul li {
+  margin: 10px 0;
+}
+
+.side-menu ul li button {
+  background: none;
+  border: none;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.side-menu ul li button i {
+  margin-right: 10px;
+}
+
+.side-menu ul li button:hover {
+  background-color: #495057;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.date-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date-selection label {
+  margin-right: 10px;
+  font-size: 1.2em; /* Increase font size */
+}
+
+.date-selection input {
+  margin-right: 20px;
+  font-size: 1.2em; /* Increase font size */
+  padding: 5px;
+}
+
+.car-list {
+  padding: 20px;
+}
+
+.car-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-box {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Added to enable overlay positioning */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.car-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #f1f1f1;
+}
+
+.car-box img {
+  width: 100%;
+  height: auto;
+}
+
+.car-details {
+  padding: 10px;
+}
+
+.car-details p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.rented img {
+  filter: blur(4px);
+}
+
+.available img {
+  filter: blur(4px);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1; /* Ensure overlay text is above the image */
+}
+
+.overlay.available {
+  background-color: rgba(0, 128, 0, 0.5); /* Different color for available cars */
+}
+
+

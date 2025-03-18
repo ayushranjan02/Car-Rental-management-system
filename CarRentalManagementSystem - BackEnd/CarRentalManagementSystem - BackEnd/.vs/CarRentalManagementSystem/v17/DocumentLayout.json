@@ -1,0 +1,918 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\addcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\addcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\updatecardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\icarrentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\icarrentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\services\\carrentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\services\\carrentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\carrentalmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\carrentalmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\irentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\irentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\rentcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\rentcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\adminregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\adminregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\carrentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\carrentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\authentication\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\data\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\data\\carrentaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\adminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\requestrentcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\requestrentcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\carrentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\carrentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\icarrentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\icarrentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\models\\dto\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\models\\dto\\customerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\repositories\\rentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\repositories\\rentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250116053727_nine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108101119_carrent3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108100925_carrent2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\carrentalmanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\carrentalmanagementsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\migrations\\20250116090401_created_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\migrations\\20250116090401_created_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|c:\\users\\2368626\\source\\repos\\carrentalmanagementsystem - backup\\carrentalmanagementsystem\\migrations\\20250116054022_created_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4A4240-5EA2-49C2-95DD-E68D5887575E}|CarRentalManagementSystem\\CarRentalManagementSystem.csproj|solutionrelative:carrentalmanagementsystem\\migrations\\20250116054022_created_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:34:08.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Payment.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\Payment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:42:31.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Response.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:48:05.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\UserRoles.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\UserRoles.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:50:40.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T04:35:52.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\appsettings.json",
+              "RelativeToolTip": "CarRentalManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-07T13:07:22.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAwwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:15:00.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Cars.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\Cars.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Cars.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\Cars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:06:11.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\CarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:28:52.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICarRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\ICarRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:17:19.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AddCarDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\AddCarDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AddCarDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\AddCarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:52:37.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\UpdateCarDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\UpdateCarDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\UpdateCarDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\UpdateCarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:20:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ImageService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ImageService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\ImageService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:30:57.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Program.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T18:51:37.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IAdminRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T06:17:32.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T06:18:29.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\IAdminService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:10:36.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\AdminService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:10:21.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:13:11.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\PaymentService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:12:55.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:12:32.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CustomerService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:12:08.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICarService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\ICarService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICarService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:11:51.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CarService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\CarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:11:30.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICarRentService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICarRentService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\ICarRentService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\ICarRentService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\ICarRentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:11:13.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarRentService.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CarRentService.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Services\\CarRentService.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Services\\CarRentService.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Services\\CarRentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:10:58.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CarRentalManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "RelativeToolTip": "CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T10:09:42.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRentCarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IRentCarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\IRentCarRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IRentCarRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\IRentCarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:52:48.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RentCar.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\RentCar.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\RentCar.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\RentCar.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\RentCar.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:40:21.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\PaymentDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\PaymentDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\PaymentDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:10:19.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:18:19.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:54:16.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminRegister.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AdminRegister.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\AdminRegister.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AdminRegister.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\AdminRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:59:32.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\Admin.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:32:37.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T06:42:19.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CarRentController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CarRentController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\CarRentController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\CarRentController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\CarRentController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:42:59.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Authentication\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Authentication\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Authentication\\ApplicationUser.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Authentication\\ApplicationUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:36:08.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CarRentalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Data\\CarRentalDbContext.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Data\\CarRentalDbContext.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Data\\CarRentalDbContext.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Data\\CarRentalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T05:24:42.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminLogin.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AdminLogin.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\AdminLogin.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\AdminLogin.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\AdminLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:11:24.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T04:56:38.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:18:05.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RequestRentCarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\RequestRentCarDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\RequestRentCarDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\RequestRentCarDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\RequestRentCarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:10:22.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CarRentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CarRentRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\CarRentRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\CarRentRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\CarRentRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwFUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T06:28:46.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BillDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\BillDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\BillDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\BillDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\BillDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T11:38:39.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdatePasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\UpdatePasswordDTO.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\UpdatePasswordDTO.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\UpdatePasswordDTO.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\UpdatePasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:01:16.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICarRentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICarRentRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\ICarRentRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\ICarRentRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\ICarRentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T06:26:48.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\IPaymentRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\IPaymentRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\IPaymentRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:18:40.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CustomerLogin.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\CustomerLogin.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Models\\DTO\\CustomerLogin.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Models\\DTO\\CustomerLogin.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Models\\DTO\\CustomerLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:11:07.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwEkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:18:55.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250116090401_created_table.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Migrations\\20250116090401_created_table.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Migrations\\20250116090401_created_table.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Migrations\\20250116090401_created_table.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Migrations\\20250116090401_created_table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:04:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RentCarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\RentCarRepository.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Repositories\\RentCarRepository.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Repositories\\RentCarRepository.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Repositories\\RentCarRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAD4vx4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:53:33.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250116054022_created_tables.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Migrations\\20250116054022_created_tables.cs",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\Migrations\\20250116054022_created_tables.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\Migrations\\20250116054022_created_tables.cs",
+              "RelativeToolTip": "CarRentalManagementSystem\\Migrations\\20250116054022_created_tables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:40:22.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250116053727_nine.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250116053727_nine.cs",
+              "RelativeDocumentMoniker": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250116053727_nine.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250116053727_nine.cs",
+              "RelativeToolTip": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250116053727_nine.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T05:37:28.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250108101119_carrent3.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108101119_carrent3.cs",
+              "RelativeDocumentMoniker": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108101119_carrent3.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108101119_carrent3.cs",
+              "RelativeToolTip": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108101119_carrent3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:11:19.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250108100925_carrent2.cs",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108100925_carrent2.cs",
+              "RelativeDocumentMoniker": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108100925_carrent2.cs",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108100925_carrent2.cs",
+              "RelativeToolTip": "..\\CarRentalManagementSystem\\CarRentalManagementSystem\\Migrations\\20250108100925_carrent2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:09:25.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CarRentalManagementSystem",
+              "DocumentMoniker": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "RelativeDocumentMoniker": "CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\2368626\\source\\repos\\CarRentalManagementSystem - BackUp\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "RelativeToolTip": "CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-07T12:12:52.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

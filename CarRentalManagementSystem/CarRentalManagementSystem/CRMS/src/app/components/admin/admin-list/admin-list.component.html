@@ -1,0 +1,17 @@
+<div class="admin-list-container">
+  <h2>Admin Details</h2>
+  <div class="admin-container">
+    <div *ngFor="let admin of admins; let i = index" class="admin-card">
+      <p><strong>Box Number:</strong> {{ i + 1 }}</p>
+      <p><strong>ID:</strong> {{ admin.adminId }}</p>
+      <h3>{{ admin.Name }}</h3>
+      <p><strong>Email:</strong> {{ admin.Email }}</p>
+      <p><strong>Phone Number:</strong> {{ admin.Phone_Number }}</p>
+      <p><strong>Password:</strong> {{ admin.Password }}</p>
+      <button (click)="deleteAdmin(admin.adminId)" class="delete-button">Delete Admin</button>
+    </div>
+  </div>
+  <div *ngIf="admins.length === 0" class="no-admins-message">
+    No admins found.
+  </div>
+</div>

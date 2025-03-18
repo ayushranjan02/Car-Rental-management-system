@@ -1,0 +1,69 @@
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #F7E7DC; /* Soft Peach */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #405D72; /* Dark Teal */
+  border-bottom: 2px solid #758694; /* Grayish Blue for accent */
+  padding-bottom: 10px;
+}
+
+.navbar {
+  background-color: #405D72; /* Dark Teal */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar li {
+  margin: 5px;
+}
+
+.navbar button {
+  background-color: #758694; /* Grayish Blue */
+  color: #FFF8F3; /* Creamy White for text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar button:hover {
+  background-color: #405D72; /* Dark Teal on hover */
+  color: #FFF8F3; /* Keep text in contrast */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #F7E7DC; /* Soft Peach */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

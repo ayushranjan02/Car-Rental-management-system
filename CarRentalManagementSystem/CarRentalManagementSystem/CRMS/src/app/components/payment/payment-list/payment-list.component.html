@@ -1,0 +1,40 @@
+<div class="list-payment">
+    <h2>Payment List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Payment ID</th>
+          <th>Rent Car ID</th>
+          <th>Amount</th>
+          <th>Payment Date</th>
+          <th>Payment Status</th>
+          <th>Payment Method</th>
+          <th>UPI ID</th>
+          <th>Card Number</th>
+          <th>Card Name</th>
+          <th>Expiry Month</th>
+          <th>Expiry Year</th>
+          <th>CVV</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let payment of payments; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ payment.paymentId }}</td>
+          <td>{{ payment.rentCarId }}</td>
+          <td>{{ payment.amount }}</td>
+          <td>{{ payment.paymentDate }}</td>
+          <td>{{ payment.paymentStatus }}</td>
+          <td>{{ payment.paymentMethod }}</td>
+          <td>{{ payment.upiId }}</td>
+          <td>{{ payment.cardNumber }}</td>
+          <td>{{ payment.cardName }}</td>
+          <td>{{ payment.expiryMonth }}</td>
+          <td>{{ payment.expiryYear }}</td>
+          <td>{{ payment.cvv }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
